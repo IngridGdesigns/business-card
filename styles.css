@@ -1,0 +1,52 @@
+body {
+    margin: 20px;
+    font-family: 'Nunito Sans', 'Josefina Sans' sans-serif;
+}
+
+.avatar {
+    width: 150px;
+    border-right: 5px outset #662E9B;
+    animation: bounce 2s ease alternate;
+}
+
+
+@keyframes bounce {
+    70% { transform:translateY(0%); }
+    80% { transform:translateY(-15%); }
+    90% { transform:translateY(0%); }
+    95% { transform:translateY(-7%); }
+    97% { transform:translateY(0%); }
+    99% { transform:translateY(-3%); }
+    100% { transform:translateY(0); }
+}
+.card {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: right;
+    background: #662E9B;
+    color: ivory;
+    border-bottom: 6px outset #662E9B;
+    border-radius: 8px;
+    animation: gradual 5s alternate;
+}
+
+@keyframes gradual {
+  0% {
+    background-color: #001F3F;
+    color: #43BCCD;
+  }
+  100% {
+    background-color: #662E9B;
+  }
+}
+
+/* .border-blue {
+    border: 1px dotted blue;
+} */
+
+.logo {
+    width: 20px;
+}
