@@ -1,4 +1,6 @@
-# cobca4518b2c6967040d09578
+# Business card html/css practice
+
+A quick HTML and CSS sandbox to practice and learn some animation. 
 
 Quick start:
 
